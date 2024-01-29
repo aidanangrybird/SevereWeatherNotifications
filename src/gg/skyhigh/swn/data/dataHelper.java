@@ -48,6 +48,10 @@ public class dataHelper {
 	};
 	
 	//Create functions that can deconstruct the api data so each part of the zone or alert can be individually addressed
+	//This will be better than having to do the pain of what I had to do in coordinateSelectionHelper
+	//Also another part that will need to be done is decontructing the product text in a way where
+	//we can pull out coordinates and probabilities
+	
 	
 	//API documentation: https://www.weather.gov/documentation/services-web-api
 	//Some important NWS API Product Type Code:

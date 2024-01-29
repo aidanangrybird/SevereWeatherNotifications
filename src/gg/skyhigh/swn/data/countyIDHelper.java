@@ -13,7 +13,7 @@ public class countyIDHelper {
 	public String stateName;
 	
 	public void getCountyID(String countyName, String stateName) {
-		
+		//Essentially use this to get the SAME or zone code for a county
 	}
 
 	

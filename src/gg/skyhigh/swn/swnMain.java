@@ -27,4 +27,7 @@ public class swnMain implements Runnable {
 	    main.run();
 	    window.createWindow();
 	}
+	
+	//Generally: add a way to add and store locations that you want to receive alerts for
+	//Maybe in future, hook into the windows/mac notification things so you actually get a desktop notification for alerts
 }
