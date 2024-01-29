@@ -50,6 +50,20 @@ public class dataHelper {
 	//Create functions that can deconstruct the api data so each part of the zone or alert can be individually addressed
 	
 	//API documentation: https://www.weather.gov/documentation/services-web-api
-	
+	//Some important NWS API Product Type Code:
+	//WWP: Severe Thunderstorm / Tornado Watch Probabilities
+	//PWO: Public Severe Weather Outlook
+	//HWO: Hazardous Weather Outlook
+	//PTS: Probabilistic Outlook Points (More notes on this below)
+	//This is the coordinates and probabilities for each of the convective outlooks.
+	//The wmoCollectiveID within each of them is how we would get which day that product is for
+	//WUUS01 is day 1 outlook, WUUS02 is day 2 outlook, WUUS03 is day 3 outlook, WUUS48 is days 4-8 outlook
+	//SWO: Severe Storm Outlook Narrative (AC)
+	//This is the text portion of the convective outlooks
+	//SEL: Severe Local Storm Watch and Watch Cancellation Msg
+	//The ones below will be handled with the active alerts section of the api:
+	//TOR: Tornado Warning
+	//SVR: Sever Thunderstorm Warning
+	//SVS: Special Weather Statement
 	
 };
