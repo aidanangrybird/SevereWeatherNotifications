@@ -47,6 +47,8 @@ public class dataHelper {
 		
 	};
 	
+	//For sure add option to switch between OWL and SPC convective forecasts
+	
 	//Create functions that can deconstruct the api data so each part of the zone or alert can be individually addressed
 	//This will be better than having to do the pain of what I had to do in coordinateSelectionHelper
 	//Also another part that will need to be done is decontructing the product text in a way where
