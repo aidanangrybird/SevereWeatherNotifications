@@ -42,11 +42,11 @@ public class dataHelper {
 	
 	private class location {
 		
-		String type;
-		
 		JsonArray features;
+		
 	};
 	
 	//Create functions that can deconstruct the api data so each part of the zone or alert can be individually addressed
+	
 	
 };
