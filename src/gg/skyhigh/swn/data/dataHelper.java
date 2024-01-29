@@ -28,6 +28,7 @@ public class dataHelper {
 	public URLConnection getAPIData(String url) throws MalformedURLException, IOException {
 		String fullURL = API_URL + url;
 		URLConnection apiConnection = new URL(fullURL).openConnection();
+		apiConnection.setRequestProperty("User-Agent", "swn.skyhigh.gg, aidanpaoletti@ou.edu");
 		return apiConnection;
 	};
 	
